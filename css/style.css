@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.cmn{
+    height: 300px;
+    width: 100%;
+}
+.sky{
+    background: rgb(103, 212, 255);
+    height: 200px;
+}
+.grass{
+    background: rgb(0, 160, 0);
+    text-align: center;
+    position: relative;
+}
+.cow{
+    width: 240px;
+    position: absolute;
+    top: 40px;
+    left: 400px
+}
+.road{
+    background: rgb(139, 139, 139);
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-top: 10px solid rgb(161, 118, 118)
+}
+.lines{
+    width: 100%;
+    height: 10px;
+    border-bottom: 10px dotted #fff;
+}
+.motu{
+    width: 280px;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    animation: motu 5s both infinite;
+    -webkit-animation: motu 5s both infinite;
+}
+.mot{
+    width: 420px;
+    position: absolute;
+    top: -10px;
+    left:0;
+    animation: motu 5s both infinite;
+    -webkit-animation: motu 10s 1s both infinite;
+    transform: rotate(160deg, 20deg);
+    -webkit-transform: rotate(60deg, 180deg);
+    -moz-transform: rotate(60deg, 180deg);
+    -ms-transform: rotate(60deg, 180deg);
+    -o-transform: rotate(60deg, 180deg);
+}
+.fly{
+    width: 200px;
+    margin-top: 40px;
+    animation: fly 18s linear infinite;
+    -webkit-animation: fly 18s linear infinite;
+}
